@@ -22,6 +22,7 @@ if(isset($_COOKIE['alnajat_userid']) && is_numeric($_COOKIE['alnajat_userid']))
         if(!$user_data)
         {
           $loggedin = 0;
+          $hello = "hello";
         }
     }else
     {
